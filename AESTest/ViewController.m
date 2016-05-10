@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#include "NSData+AES256.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString* message = @"神奇的AES";
+    
+    NSString* str = [NSData AES256EncryptWithPlainText:message];
+    NSString* res = [NSData AES256DecryptWithCiphertext:str];
+    NSLog(@"%@",str);
+    NSLog(@"%@",res);
+
 }
 
 - (void)didReceiveMemoryWarning

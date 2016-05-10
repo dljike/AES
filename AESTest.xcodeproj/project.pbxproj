@@ -21,6 +21,7 @@
 		BCC46D3219D061D50003FD17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC46D1419D061D50003FD17 /* UIKit.framework */; };
 		BCC46D3A19D061D50003FD17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCC46D3819D061D50003FD17 /* InfoPlist.strings */; };
 		BCC46D3C19D061D50003FD17 /* AESTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC46D3B19D061D50003FD17 /* AESTestTests.m */; };
+		BCC46D4719D061EE0003FD17 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC46D4619D061EE0003FD17 /* NSData+AES256.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BCC46D3719D061D50003FD17 /* AESTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AESTestTests-Info.plist"; sourceTree = "<group>"; };
 		BCC46D3919D061D50003FD17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCC46D3B19D061D50003FD17 /* AESTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESTestTests.m; sourceTree = "<group>"; };
+		BCC46D4519D061EE0003FD17 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		BCC46D4619D061EE0003FD17 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				BCC46D2219D061D50003FD17 /* Main.storyboard */,
 				BCC46D2519D061D50003FD17 /* ViewController.h */,
 				BCC46D2619D061D50003FD17 /* ViewController.m */,
+				BCC46D4519D061EE0003FD17 /* NSData+AES256.h */,
+				BCC46D4619D061EE0003FD17 /* NSData+AES256.m */,
 				BCC46D2819D061D50003FD17 /* Images.xcassets */,
 				BCC46D1719D061D50003FD17 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				BCC46D2719D061D50003FD17 /* ViewController.m in Sources */,
 				BCC46D2119D061D50003FD17 /* AppDelegate.m in Sources */,
+				BCC46D4719D061EE0003FD17 /* NSData+AES256.m in Sources */,
 				BCC46D1D19D061D50003FD17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
